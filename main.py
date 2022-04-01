@@ -13,4 +13,5 @@ def root():
 		'ipca': ipca_last_12_months
 	})
 
-app.run()
+if __name__ == "__main__":
+	app.run()
